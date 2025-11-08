@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(173, 196, 188);
+    text-align: center;
+}
+
+.header {
+    padding: 30px;
+    background: rgb(9, 59, 186);
+    color: rgb(252, 252, 252);
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(9, 59, 186);
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+}
+ul li a {
+    padding: 14px 16px;
+    display: block;
+    background: rgb(9, 59, 186);
+    color: rgb(252, 252, 252);
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    background-color: rgb(252, 252, 252);
+    color:rgb(19, 1, 1)
+}
+
+hr {
+    color:rgb(19, 1, 1);
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+    font-size: xx-larges;
+    text-align: center;
+}
+
+.ul2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.div {
+    margin: 50px;
+    background-color: rgb(173, 196, 188);
+}
+
+.div2 {
+    margin :50px;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+table, td {
+  border: 2px solid rgb(9, 59, 186);
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+    border: 8px solid rgb(9, 59, 186);
+    background-color: rgb(9, 59, 186);
+    color: rgb(252, 252, 252);
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+form {
+    border-radius: 5px;
+    background-color: rgb(140, 161, 214);
+    padding: 20px;
+}
+
+input[type=submit] {
+    background-color: rgb(9, 59, 186);
+    color: rgb(252, 252, 252)
+}
+
+* {
+    box-sizing: border-box;
+}   
